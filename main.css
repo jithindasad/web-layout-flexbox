@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: url("./dawn-daylight-hill-1115487.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.top-bar {
+    display: flex;
+    background: #000;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.logo {
+    font-size: 40px;
+    flex: 1;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    flex: 3;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin-top: 30px;
+}
+.menu ul li {
+    flex:1;
+    text-align: center;
+
+}
+
+.menu ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
