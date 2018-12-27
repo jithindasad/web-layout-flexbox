@@ -67,5 +67,18 @@
 
 .banner-text-items p {
     font-size: 18px;
-    
+
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5% 0;
+
+}
+
+.main1 {
+    flex: 1;
+    padding: 3%;
+    text-align: center;
 }
